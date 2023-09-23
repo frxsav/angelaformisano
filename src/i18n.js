@@ -20,10 +20,6 @@ i18next
   .use(Backend)
   .init({
     debug: true,
-    fallbackLng: "it",
-  })
-  .init({
-    debug: true,
     fallbackLng: "en",
     lng: "it",
     interpolation: {

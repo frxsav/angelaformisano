@@ -1,13 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --outside: #92e6a7;
+  --inside: #F0FBF8;
+  --text: #104566;
+  --blue: #A9E4E6;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@layer base {
+  .underline-animation {
+    @apply relative mr-10 tracking-[1px] text-c-text col-span-1 font-medium flex content-center text-xl;
+  }
+
+  .underline-animation::after {
+    @apply content-[''] bg-c-text h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-500;
+  }
+
+  .underline-animation:hover::after {
+    @apply w-[100%];
+  }
+}
+
+img.where-frame {
+  border-radius: 255px 25px 225px 25px/25px 225px 25px 255px;
+  border: solid 7px var(--blue);
+}
+
+

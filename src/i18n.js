@@ -20,7 +20,7 @@ i18next
   .use(Backend)
   .init({
     debug: true,
-    fallbackLng: "en",
+    fallbackLng: "it",
     lng: "it",
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default

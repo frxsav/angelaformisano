@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./components/header/Navbar";
-import About from "./components/main/About";
-import Treatments from "./components/main/Treatments";
-import Where from "./components/main/Where";
+import Navbar from "./pages/header/Navbar";
+import About from "./pages/main/About";
+import Treatments from "./pages/main/Treatments";
+import Where from "./pages/main/Where";
 
 function App() {
   return (

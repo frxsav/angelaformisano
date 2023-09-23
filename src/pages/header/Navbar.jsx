@@ -1,7 +1,9 @@
 import React from "react";
-import Logo from "./Logo";
+import Logo from "../../components/Logo";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
+  const { t } = useTranslation();
   return (
     <>
       <nav
@@ -12,17 +14,17 @@ function Navbar() {
         <ul className="col-start-8 flex self-center whitespace-nowrap">
           <li className="flex content-center text-justify">
             <a href="/" className="underline-animation">
-              Chi Sono
+            {t("navbar.about")}
             </a>
           </li>
           <li className="flex content-center text-justify">
             <a href="/" className="underline-animation">
-              Trattamenti
+            {t("navbar.treatments")}
             </a>
           </li>
           <li className="flex content-center text-justify">
             <a href="/" className="underline-animation">
-              Contatti
+            {t("navbar.contacts")}
             </a>
           </li>
         </ul>

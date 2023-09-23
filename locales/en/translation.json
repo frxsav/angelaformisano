@@ -1,0 +1,17 @@
+{
+  "doctor": {
+    "professional_name": "Dott.ssa Angela Formisano",
+    "profession": "Fisioterapist"
+  },
+  "navbar": {
+    "about": "About",
+    "treatments": "Treatments",
+    "contacts": "Contacts"
+  },
+  "main": {
+    "bio_title": "Searching for a fisioterapist in Ercolano?",
+    "bio_description": "The dott.ssa <b>{{name}}</b> works since 2019 with passion adn love for her job, mettendo il <b>benessere del paziente</b> al centro del percorso riabilitativo, seguendone i risultati anche a distanza.",
+    "fisio_title": "Perchè rivolgersi al fisioterapista?",
+    "fisio_description": "Il fisioterapista è un professionista sanitario che lavora sul benessere fisico del paziente attraverso l'uso di esercizi terapeutici, tecniche manuali, terapie e modalità di trattamento specifiche. Si occupa principalmente di:"
+  }
+}

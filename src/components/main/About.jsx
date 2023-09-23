@@ -58,7 +58,7 @@ function About() {
           style={{ borderRadius: "82% 18% 27% 73% / 100% 57% 43% 0% " }}
         >
           <img
-            src="/images/Angela.png"
+            src="./images/Angela.png"
             alt="Angela"
             width="600px"
             height="600px"

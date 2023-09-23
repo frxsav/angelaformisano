@@ -22,7 +22,7 @@ function Where() {
         >
           <img
             className="border border-black rounded where-frame"
-            src="/images/Studio.jpg"
+            src="./images/Studio.jpg"
             alt="Studio"
             width="500px"
             height="500px"

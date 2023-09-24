@@ -4,13 +4,13 @@
     "profession": "Fisioterapista"
   },
   "navbar": {
-    "about": "Chi Sono",
+    "where": "Dove Sono",
     "treatments": "Trattamenti",
     "contacts": "Contatti"
   },
   "main": {
     "bio_description": "Sono laureata in <b>Fisioterapia</b> all'università <b>Federico II</b> di Napoli, specializzata in Massoterapia e Linfodrenaggio.",
-    "dsc_3": "Laureata con Lode all'Università Federico II di Napoli, specializzata in <i>Linfodrenaggio Manuale</i> e <i>Master in Posturologia</i> presso l'Università Telematica Pegaso. Presso il mio studio, effettuo diversi trattamenti riabilitativi di Rieducazione Posturale, Recupero Post-Operatorio, Malattie Croniche, Recuperi da lesioni traumatiche ed infortuni sportivi, impostando piani di recupero personalizzati in base al progresso ed allo stato del paziente, seguendone gli sviluppi anche a distanza.",
+    "dsc_3": "Laureata con Lode all'Università Federico II di Napoli, specializzata in <i>Linfodrenaggio Manuale</i> e con <i>Master in Posturologia</i> presso l'Università Telematica Pegaso. Presso il mio studio effettuo diversi trattamenti riabilitativi di Rieducazione Posturale, Recupero Post-Operatorio, Malattie Croniche, Recuperi da lesioni traumatiche ed infortuni sportivi, impostando piani di recupero personalizzati in base al progresso ed allo stato del paziente, seguendone gli sviluppi anche a distanza.",
     "fisio_description": "Presso il mio studio e a domicilio effettuo i seguenti trattamenti:"
   },
   "treatments": {
@@ -19,10 +19,23 @@
   },
   "where": {
     "title": "Dove Sono",
-    "street": "Via Niccolò Marcello Venuti 69",
-    "building": "Parco d'Angelo - Scala D - Quinto piano",
+    "street": "Via Nicolò Marcello Venuti 69",
+    "building": "Parco d'Angelo",
     "city": "80056 Ercolano, NA",
     "working_time_title": "Giorni ed Orari",
-    "working_time_dsc": "da Lunedì a Venerdì dalle 14:30 alle 20:00"
+    "working_time_dsc": "dal Lunedì al Venerdì dalle ore 14:30 alle ore 20:00"
+  },
+  "contacts": {
+    "name": "Nome",
+    "surname": "Cognome",
+    "email": "Email",
+    "number": "Telefono",
+    "your_message": "Il tuo messaggio",
+    "send": "Invia",
+    "contact_me": "Contattami",
+    "contact_me_dsc": "Contattami per ulteriori informazioni tramite i seguenti contatti o compila il form con le tue richieste",
+    "personal_email": "angelaformisano5@gmail.com",
+    "personal_phone": "Tel. +39 339 421 10 17",
+    "designer": "All right reserved ® – 2023 – designed by Francesco Formisano"
   }
 }

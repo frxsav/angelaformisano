@@ -15,13 +15,13 @@ function Navbar() {
             </a>
           </li>
           <li className="flex content-center text-justify">
-            <a href="#where" className="underline-animation">
+            <a href="#visit" className="underline-animation">
               {t("navbar.where")}
             </a>
           </li>
 
           <li className="flex content-center text-justify">
-            <a href="#contacts" className="underline-animation">
+            <a href="#footer" className="underline-animation">
               {t("navbar.contacts")}
             </a>
           </li>

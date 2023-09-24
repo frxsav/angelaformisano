@@ -2,7 +2,7 @@ import React from "react";
 import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
 import { motion as m } from "framer-motion";
-// import angela from "../../img/Angela.png";
+import angela from "../../img/Angela.png";
 
 function About() {
   const { t } = useTranslation();
@@ -58,7 +58,7 @@ function About() {
           className="col-end-12 col-span-4 bg-c-blue"
           style={{ borderRadius: "82% 18% 27% 73% / 100% 57% 43% 0% " }}
         >
-          <img src="./images/Angela.png" alt="Angela" width="600px" height="600px" />
+          <img src={angela} alt="Angela" width="600px" height="600px" />
         </m.div>
       </div>
     </>

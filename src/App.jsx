@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./pages/header/Navbar";
 import About from "./pages/main/About";
 import Treatments from "./pages/main/Treatments";
-import Where from "./pages/main/Where";
-import Contacts from "./pages/main/Contacts";
+import Where from "./pages/main/Visit";
+import Footer from "./pages/footer/Footer";
 
 function App() {
   return (
@@ -12,12 +12,15 @@ function App() {
         <header className="w-full bg-c-inside">
           <Navbar></Navbar>
         </header>
-        <main className="bg-c-inside text-c-text divide-y-[25px] divide-c-outside">
+        <main className="bg-c-inside text-c-text divide-y-[20px] divide-c-outside">
           <About></About>
           <Treatments></Treatments>
           <Where></Where>
-          <Contacts></Contacts>
         </main>
+        <footer className="divide-y-[20px] divide-c-outside">
+          <div></div>
+          <Footer></Footer>
+        </footer>
       </div>
     </>
   );

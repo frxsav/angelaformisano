@@ -17,25 +17,35 @@
     "title": "Trattamenti",
     "dsc": "Presso il mio studio effettuo trattaemnti specialistici di Terapia Manuale, Osteopatia, Terapia Strumentale, Massoterapia, Rieducazione Posturale"
   },
-  "where": {
-    "title": "Dove Sono",
-    "street": "Via Nicolò Marcello Venuti 69",
-    "building": "Parco d'Angelo",
-    "city": "80056 Ercolano, NA",
-    "working_time_title": "Giorni ed Orari",
-    "working_time_dsc": "dal Lunedì al Venerdì dalle ore 14:30 alle ore 20:00"
+  "visit": {
+    "title": "Prenota una visita gratuita",
+    "dsc": "Compila il form seguente con la tua richiesta e ti ricontatterò il prima possibile",
+    "form": {
+      "name": "Nome",
+      "surname": "Cognome",
+      "email": "Email",
+      "number": "Telefono",
+      "your_message": "Il tuo messaggio",
+      "send": "Invia"
+    }
   },
-  "contacts": {
-    "name": "Nome",
-    "surname": "Cognome",
-    "email": "Email",
-    "number": "Telefono",
-    "your_message": "Il tuo messaggio",
-    "send": "Invia",
-    "contact_me": "Contattami",
-    "contact_me_dsc": "Contattami per ulteriori informazioni tramite i seguenti contatti o compila il form con le tue richieste",
-    "personal_email": "angelaformisano5@gmail.com",
-    "personal_phone": "Tel. +39 339 421 10 17",
+  "footer": {
+    "where": {
+      "title": "Dove Sono",
+      "street": "Via Nicolò Marcello Venuti 69",
+      "building": "Parco d'Angelo",
+      "city": "80056 Ercolano, NA"
+    },
+    "working_time": {
+      "title": "Giorni ed Orari",
+      "days": "dal Lunedì al Venerdì",
+      "hours": "dalle ore 14:30 alle ore 20:00"
+    },
+    "contacts": {
+      "title": "Contatti",
+      "email": "angelaformisano5@gmail.com",
+      "phone_number": "Tel. +39 339 421 10 17"
+    },
     "designer": "All right reserved ® – 2023 – designed by Francesco Formisano"
   }
 }

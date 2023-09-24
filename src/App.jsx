@@ -4,7 +4,6 @@ import About from "./pages/main/About";
 import Treatments from "./pages/main/Treatments";
 import Where from "./pages/main/Where";
 import Contacts from "./pages/main/Contacts";
-import GoUp from "./components/GoUp";
 
 function App() {
   return (

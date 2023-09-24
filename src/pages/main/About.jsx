@@ -2,7 +2,7 @@ import React from "react";
 import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
 import { motion as m } from "framer-motion";
-import angela from "../../img/Angela.png";
+// import angela from "../../img/Angela.png";
 
 function About() {
   const { t } = useTranslation();

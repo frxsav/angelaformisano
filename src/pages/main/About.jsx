@@ -8,9 +8,7 @@ function About() {
   const { t } = useTranslation();
   return (
     <>
-      <div
-        className="grid lg:grid-cols-12 lg:gap-4 py-10"
-      >
+      <div className="grid lg:grid-cols-12 lg:gap-4 py-10">
         <m.div
           initial={{ x: -300, opacity: 0 }}
           whileInView={{
@@ -30,18 +28,22 @@ function About() {
             <h1 className="text-5xl font-bold mb-2">
               {t("doctor.professional_name")}
             </h1>
-            <span className="text-4xl italic"> {t("doctor.profession")}</span>
-          </div>
-          <div className="lg:row-start-2 md:row-start-8">
-            <p className="text-4xl underline decoration-1 underline-offset-4 pl-3 pb-3 border-l-4 border-l-c-blue">
+            <div className="separator-left mt-5"></div>
+            {/* <span className="text-4xl italic"> {t("doctor.profession")}</span> */}
+            {/* <p className="text-4xl underline decoration-1 underline-offset-4 pl-3 pb-3 border-l-4 border-l-c-blue">
               {t("main.bio_title")}
-            </p>
-            <p className="text-xl text-justify border-l-4 border-l-c-blue pl-3">
+            </p> */}
+            <p className="text-2xl text-justify  mt-20 leading-8">
               <Trans
                 i18nKey={"main.bio_description"}
-                defaults="La dott.ssa {{name}} lavora dal 2019 con passione ed amore per il proprio lavoro, mettendo il benessere del paziente al centro del percorso riabilitativo, seguendone i risultati anche a distanza."
                 values={{ name: "Angela Formisano" }}
                 components={{ b: <b /> }}
+              />
+            </p>
+            <p className="text-lg text-justify pt-10 leading-6">
+              <Trans
+                i18nKey={"main.dsc_3"}
+                components={{ i: <i /> }}
               />
             </p>
           </div>

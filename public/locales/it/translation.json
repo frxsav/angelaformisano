@@ -9,9 +9,20 @@
     "contacts": "Contatti"
   },
   "main": {
-    "bio_title": "Cerchi una fisioterapista ad Ercolano?",
-    "bio_description": "La dott.ssa <b>{{name}}</b> lavora dal 2019 con passione ed amore per il proprio lavoro, mettendo il <b>benessere del paziente</b> al centro del percorso riabilitativo, seguendone i risultati anche a distanza.",
-    "fisio_title": "Perchè rivolgersi al fisioterapista?",
-    "fisio_description": "Il fisioterapista è un professionista sanitario che lavora sul benessere fisico del paziente attraverso l'uso di esercizi terapeutici, tecniche manuali, terapie e modalità di trattamento specifiche. Si occupa principalmente di:"
+    "bio_description": "Sono laureata in <b>Fisioterapia</b> all'università <b>Federico II</b> di Napoli, specializzata in Massoterapia e Linfodrenaggio.",
+    "dsc_3": "Laureata con Lode all'Università Federico II di Napoli, specializzata in <i>Linfodrenaggio Manuale</i> e <i>Master in Posturologia</i> presso l'Università Telematica Pegaso. Presso il mio studio, effettuo diversi trattamenti riabilitativi di Rieducazione Posturale, Recupero Post-Operatorio, Malattie Croniche, Recuperi da lesioni traumatiche ed infortuni sportivi, impostando piani di recupero personalizzati in base al progresso ed allo stato del paziente, seguendone gli sviluppi anche a distanza.",
+    "fisio_description": "Presso il mio studio e a domicilio effettuo i seguenti trattamenti:"
+  },
+  "treatments": {
+    "title": "Trattamenti",
+    "dsc": "Presso il mio studio effettuo trattaemnti specialistici di Terapia Manuale, Osteopatia, Terapia Strumentale, Massoterapia, Rieducazione Posturale"
+  },
+  "where": {
+    "title": "Dove Sono",
+    "street": "Via Niccolò Marcello Venuti 69",
+    "building": "Parco d'Angelo - Scala D - Quinto piano",
+    "city": "80056 Ercolano, NA",
+    "working_time_title": "Giorni ed Orari",
+    "working_time_": "da Lunedì a Venerdì dalle 14:30 alle 20:00"
   }
 }

@@ -10,7 +10,7 @@ function Navbar() {
         className="grid grid-cols-12"
       >
         <Logo></Logo>
-        <ul className="col-start-8 flex self-center whitespace-nowrap">
+        <ul className="hidden lg:flex col-start-9 self-center whitespace-nowrap">
           <li className="flex content-center text-justify">
             <a href="/" className="underline-animation">
             {t("navbar.about")}

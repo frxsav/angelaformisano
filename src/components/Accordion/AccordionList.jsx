@@ -1,30 +1,10 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import AccordionItem from "./AccordionItem";
 
 const AccordionList = () => {
   const { t } = useTranslation();
-  const therapies = [
-    { title: "Dolore muscoloscheletrico", description: "blablablablablabla" },
-    { title: "Recupero post-operatorio", description: "blablablablablabla" },
-    { title: "Infortuni sportivi", description: "blablablablablabla" },
-    { title: "Problematiche posturali", description: "blablablablablabla" },
-    { title: "Malattie croniche", description: "blablablablablabla" },
-    {
-      title: "Miglioramento della mobilità globale",
-      description: "blablablablablabla",
-    },
-    {
-      title: "Recupero da lesione traumatiche",
-      description: "blablablablablabla",
-    },
-    { title: "Gestione dolore cronico", description: "blablablablablabla" },
-    {
-      title: "Promozione della salute e del benessere",
-      description: "blablablablablabla",
-    },
-  ];
+
   return (
     <>
       <m.div
@@ -41,13 +21,12 @@ const AccordionList = () => {
         viewport={{ once: true }}
         className="col-span-10 col-start-2 pb-10"
       >
-        <h1 className="text-5xl font-semibold pb-2">{t("main.fisio_title")}</h1>
-        <p className="text-2xl mb-5">{t("main.fisio_description")}</p>
-        <div className="grid grid-cols-12 py-4">
-          {therapies.map((th) => (
-            <AccordionItem item={th}></AccordionItem>
-          ))}
-        </div>
+        <h1 className="text-5xl font-semibold pb-2 text-c-blue text-center pb-5">
+          {t("treatments.title")}
+        </h1>
+        <p className="text-3xl pt-3 text-center text-c-inside">
+          {t("main.fisio_description")}
+        </p>
       </m.div>
     </>
   );

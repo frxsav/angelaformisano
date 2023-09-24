@@ -8,7 +8,6 @@ function Navbar() {
     <>
       <nav
         className="grid grid-cols-12"
-        style={{ borderBottom: "1px solid c-outside" }}
       >
         <Logo></Logo>
         <ul className="col-start-8 flex self-center whitespace-nowrap">

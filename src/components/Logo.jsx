@@ -1,4 +1,5 @@
 import React from "react";
+import logoimg from "../img/Logo.png"
 
 function Logo() {
   return (

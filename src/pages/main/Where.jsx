@@ -1,5 +1,6 @@
 import React from "react";
 import { motion as m } from "framer-motion";
+import studio from "../../img/Studio.jpg";
 
 function Where() {
   return (

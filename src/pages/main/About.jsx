@@ -2,12 +2,15 @@ import React from "react";
 import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
 import { motion as m } from "framer-motion";
+import angela from "../../img/Angela.png";
 
 function About() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="grid lg:grid-cols-12 lg:gap-4 py-10">
+      <div
+        className="grid lg:grid-cols-12 lg:gap-4 py-10"
+      >
         <m.div
           initial={{ x: -300, opacity: 0 }}
           whileInView={{
@@ -57,12 +60,7 @@ function About() {
           className="col-end-12 col-span-4 bg-c-blue"
           style={{ borderRadius: "82% 18% 27% 73% / 100% 57% 43% 0% " }}
         >
-          <img
-            src="./images/Angela.png"
-            alt="Angela"
-            width="600px"
-            height="600px"
-          />
+          <img src="./images/Angela.png" alt="Angela" width="600px" height="600px" />
         </m.div>
       </div>
     </>

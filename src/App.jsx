@@ -11,7 +11,7 @@ function App() {
         <header className="w-full bg-c-inside h-[100px]">
           <Navbar></Navbar>
         </header>
-        <main className="bg-c-inside text-c-text">
+        <main className="bg-c-inside text-c-text divide-y-2 divide-c-outside">
           <About></About>
           <Treatments></Treatments>
           <Where></Where>

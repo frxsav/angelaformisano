@@ -1,14 +1,9 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
-import { HiChevronDown } from "react-icons/hi";
+import AccordionItem from "./AccordionItem";
 
-const Accordion = () => {
-  const [accordion, setActiveAccordion] = useState(-1);
-  function toggleAccordion(index) {
-    setActiveAccordion(index);
-  }
+const AccordionList = () => {
   const { t } = useTranslation();
   const therapies = [
     { title: "Dolore muscoloscheletrico", description: "blablablablablabla" },
@@ -48,37 +43,14 @@ const Accordion = () => {
       >
         <h1 className="text-5xl font-semibold pb-2">{t("main.fisio_title")}</h1>
         <p className="text-2xl mb-5">{t("main.fisio_description")}</p>
-        {therapies.map((th, index) => (
-          <m.div
-            key={index}
-            onClick={() => toggleAccordion(index)}
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{
-              opacity: 1,
-              y: 0,
-              transition: {
-                type: "sprint",
-                opacity: { duration: 0.5 },
-                y: { duration: 0.8 },
-              },
-            }}
-            viewport={{ once: true }}
-            className="border-b"
-          >
-            <div>
-              <h3>{th.title}</h3>
-            </div>
-            <div className={accordion === index ? "block" : "hidden"}>
-              <p>blablabla</p>
-              <HiChevronDown
-                className={accordion === index ? "transition-transform duration-200 ease-in-out rotate-[-180deg]" : "transition-transform duration-200 ease-in-out rotate-0"}
-              ></HiChevronDown>
-            </div>
-          </m.div>
-        ))}
+        <div className="grid grid-cols-12 py-4">
+          {therapies.map((th) => (
+            <AccordionItem item={th}></AccordionItem>
+          ))}
+        </div>
       </m.div>
     </>
   );
 };
 
-export default Accordion;
+export default AccordionList;

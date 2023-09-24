@@ -7,7 +7,7 @@ function Where() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="grid grid-cols-12 py-10">
+      <div className="grid grid-cols-12 py-10" id="where">
         <m.div
           initial={{ x: -300, opacity: 0 }}
           whileInView={{

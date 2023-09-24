@@ -8,7 +8,7 @@ function About() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="grid lg:grid-cols-12 lg:gap-4 py-10">
+      <div className="grid lg:grid-cols-12 lg:gap-4 py-10" id="about">
         <m.div
           initial={{ x: -300, opacity: 0 }}
           whileInView={{
@@ -29,10 +29,6 @@ function About() {
               {t("doctor.professional_name")}
             </h1>
             <div className="separator-left mt-5"></div>
-            {/* <span className="text-4xl italic"> {t("doctor.profession")}</span> */}
-            {/* <p className="text-4xl underline decoration-1 underline-offset-4 pl-3 pb-3 border-l-4 border-l-c-blue">
-              {t("main.bio_title")}
-            </p> */}
             <p className="text-2xl text-justify  mt-20 leading-8">
               <Trans
                 i18nKey={"main.bio_description"}

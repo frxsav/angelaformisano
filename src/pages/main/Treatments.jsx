@@ -10,32 +10,32 @@ function Treatments() {
   const treatments = [
     {
       name: "Trattamenti di prevenzione",
-      dsc: "Fondamentale per contrastare la comparsa di dolori e problemi posturali, con l'utilizzo di diversi trattamenti.",
+      dsc: "Fondamentale per contrastare la comparsa di dolori e problemi posturali, con l'utilizzo di diversi trattamenti",
     },
     {
       name: "Trattamenti posturali",
-      dsc: "Per combattere l'insorgenza o la presenza attuale di posture scorrette attraverso l'esercizio terapeutico.",
+      dsc: "Per combattere l'insorgenza o la presenza attuale di posture scorrette attraverso l'esercizio terapeutico",
     },
     {
       name: "Terapia fisica strumentale",
-      dsc: "Con utilizzo di Tecarterapia, Ultrasuonoterapia e Terapia a Percussione.",
+      dsc: "Con utilizzo di Tecarterapia, Ultrasuonoterapia e Terapia a Percussione",
     },
     {
       name: "Fisioestetica",
-      dsc: "Peeling biorivitalizzante per contrastare l'invecchiamento cutaneo, Linfodrenaggio manuale localizzato contro edemi e ritenzione idrica.",
+      dsc: "Peeling biorivitalizzante per contrastare l'invecchiamento cutaneo, Linfodrenaggio manuale localizzato contro edemi e ritenzione idrica",
     },
     {
       name: "Terapia manuale e Massoterapia",
-      dsc: "Il massaggio è la principale forma di terapia manuale, riduce le tensioni e migliora la circolazione locale.",
+      dsc: "Il massaggio è la principale forma di terapia manuale, riduce le tensioni e migliora la circolazione locale",
     },
     {
       name: "Taping e Bendaggio funzionale",
-      dsc: "Utilizzati per favorire il recupero da lesioni muscolo-scheletriche e articolari, o post infortunio.",
+      dsc: "Utilizzati per favorire il recupero da lesioni muscolo-scheletriche e articolari, o post infortunio",
     },
   ];
   return (
     <>
-      <div className="grid grid-cols-12 py-10 bg-c-text text-c-outside">
+      <div className="grid grid-cols-12 py-10 bg-c-text text-c-outside" id="treatments">
         <m.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{

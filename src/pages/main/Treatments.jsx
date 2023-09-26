@@ -1,9 +1,7 @@
 import React from "react";
 import { motion as m } from "framer-motion";
-import { Collapse, initTE } from "tw-elements";
 import { useTranslation } from "react-i18next";
-
-initTE({ Collapse });
+import CarouselList from "../../components/Carousel/CarouselList";
 
 function Treatments() {
   const { t } = useTranslation();
@@ -35,7 +33,10 @@ function Treatments() {
   ];
   return (
     <>
-      <div className="grid grid-cols-12 py-10 bg-c-text text-c-outside" id="treatments">
+      <div
+        className="grid grid-cols-12 py-10 bg-c-text text-c-outside"
+        id="treatments"
+      >
         <m.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{
@@ -48,7 +49,7 @@ function Treatments() {
             },
           }}
           viewport={{ once: true }}
-          className="col-span-12 pb-10"
+          className="col-span-12 lg:pb-10"
         >
           <m.div
             initial={{ opacity: 0, y: 100 }}
@@ -64,15 +65,15 @@ function Treatments() {
             viewport={{ once: true }}
             className="col-span-10 col-start-2 pb-10"
           >
-            <p className="text-5xl font-semibold pb-2 text-c-outside text-center pb-5">
+            <p className="text-4xl lg:text-5xl font-semibold lg:pb-5 text-c-outside text-center">
               {t("treatments.title")}
             </p>
-            <p className="text-3xl pt-3 text-center text-c-inside">
+            <p className="text-2xl lg:text-3xl pt-3 text-center text-c-inside">
               {t("main.fisio_description")}
             </p>
           </m.div>
         </m.div>
-        <ul className="col-start-3 col-span-8 grid grid-cols-6 gap-8 text-center">
+        <ul className="hidden lg:grid col-start-3 col-span-8 grid-cols-6 gap-8 text-center">
           {treatments.map((tr, index) => (
             <m.li
               key={index}
@@ -94,11 +95,17 @@ function Treatments() {
               viewport={{ once: true }}
               className="col-span-2 border rounded border-c-outside p-2 min-h-fullflex justify-center items-center grid grid-cols-12"
             >
-              <p className="col-span-12 text-3xl font-semibold pb-4">{tr.name}</p>
+              <p className="col-span-12 text-3xl font-semibold pb-4">
+                {tr.name}
+              </p>
               <p className="col-span-12 text-c-inside text-lg">{tr.dsc}</p>
             </m.li>
           ))}
         </ul>
+
+        <div className="col-span-12 lg:hidden">
+          <CarouselList treatments={treatments}></CarouselList>
+        </div>
       </div>
     </>
   );

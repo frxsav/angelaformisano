@@ -8,12 +8,12 @@ const Footer = () => {
   return (
     <>
       <div
-        className="grid grid-cols-12 px-10 pt-16 pb-5 bg-c-text text-c-outside"
+        className="grid grid-cols-12 px-5 lg:px-10 pt-5 lg:pt-16 pb-5 bg-c-text text-c-outside"
         id="footer"
       >
-        <section className="col-span-3 grid grid-rows-12">
+        <section className="col-span-6 lg:col-span-3 grid grid-rows-12">
           <div>
-            <h6 className="text-3xl pb-2">{t("footer.where.title")}</h6>
+            <h6 className="text-2xl lg:text-3xl pb-2">{t("footer.where.title")}</h6>
             <address className="text-c-inside">
               {t("footer.where.street")}
               <br />
@@ -23,9 +23,9 @@ const Footer = () => {
             </address>
           </div>
         </section>
-        <section className="col-span-3 grid grid-rows-12">
+        <section className="col-span-6 lg:col-span-3 grid grid-rows-12">
           <div>
-            <h6 className="text-3xl pb-2">{t("footer.working_time.title")} </h6>
+            <h6 className="text-2xl lg:text-3xl pb-2">{t("footer.working_time.title")} </h6>
             <address className="text-c-inside">
               {" "}
               {t("footer.working_time.days")} <br />
@@ -33,9 +33,9 @@ const Footer = () => {
             </address>
           </div>
         </section>
-        <section className="col-span-3 grid grid-rows-12">
+        <section className="col-span-6 lg:col-span-3 pt-4 lg:pt-0 grid grid-rows-12">
           <div>
-            <h6 className="text-3xl pb-2"> {t("footer.contacts.title")} </h6>
+            <h6 className="text-2xl lg:text-3xl pb-2"> {t("footer.contacts.title")} </h6>
             <address className="text-c-inside">
               {" "}
               {t("footer.contacts.email")} <br />{" "}
@@ -43,12 +43,12 @@ const Footer = () => {
             </address>
           </div>
         </section>
-        <section className="grid grid-cols-2 p-2">
+        <section className="grid grid-cols-2 p-2 col-span-3 col-start-9 lg:col-span-1 lg:gap-0 lg:pt-0 gap-8 pt-4">
           <a
             href="https://www.facebook.com/dott.ssaAngelaFormisano"
             target="_blank"
             rel="noreferrer"
-            className="text-3xl cursor-pointer col-span-1"
+            className="text-2xl lg:text-3xl cursor-pointer col-span-1"
           >
             <BsFacebook></BsFacebook>
           </a>
@@ -56,15 +56,17 @@ const Footer = () => {
             href="https://www.instagram.com/fisioterapista_angela/"
             target="_blank"
             rel="noreferrer"
-            className="text-3xl cursor-pointer col-span-1"
+            className="text-2xl lg:text-3xl cursor-pointer col-span-1"
           >
             <BsInstagram></BsInstagram>
           </a>
         </section>
-        <small className="text-c-inside col-span-4 pt-10 row-end-12 self-end">
+        <small className="text-c-inside border-t border-t-c-outside col-span-12 lg:col-span-4 pt-2 mt-8 row-end-12 lg:self-end">
           {t("footer.designer")}
         </small>
-        <GoUp></GoUp>
+        <div className="hidden lg:block">
+          <GoUp></GoUp>
+        </div>
       </div>
     </>
   );

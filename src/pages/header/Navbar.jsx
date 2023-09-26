@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../components/Logo";
 import { useTranslation } from "react-i18next";
+import BurgerMenu from "../../components/BurgerMenu/BurgerMenu";
 
 function Navbar() {
   const { t } = useTranslation();
@@ -26,6 +27,7 @@ function Navbar() {
             </a>
           </li>
         </ul>
+        <BurgerMenu></BurgerMenu>
       </nav>
     </>
   );

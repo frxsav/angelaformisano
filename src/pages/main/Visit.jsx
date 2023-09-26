@@ -20,10 +20,10 @@ function Visit() {
             },
           }}
           viewport={{ once: true }}
-          className="col-start-2 col-span-4"
+          className="lg:col-start-2 lg:col-span-4 col-span-12 lg:text-left text-center"
         >
-          <h6 className="text-4xl font-semibold pb-5"> {t("visit.title")} </h6>
-          <small className="text-xl"> {t("visit.dsc")} </small>
+          <h6 className="text-3xl lg:text-4xl font-semibold pb-5"> {t("visit.title")} </h6>
+          <small className="text-xl hidden lg:block"> {t("visit.dsc")} </small>
         </m.div>
         <m.div
           initial={{ x: 300, opacity: 0 }}
@@ -38,7 +38,7 @@ function Visit() {
             },
           }}
           viewport={{ once: true }}
-          className="col-start-7 col-span-5"
+          className="lg:col-start-7 lg:col-span-5 col-span-12 p-5 lg:p-0"
         >
           <form className="grid grid-cols-12 col-span-6 gap-4">
             <input

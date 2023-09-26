@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
@@ -11,9 +11,10 @@ module.exports = {
         "c-outside": "#59cd76",
         "c-inside": "#F0FBF8",
         "c-text": "#104566",
-        "c-blue": "#A9E4E6"
+        "c-blue": "#A9E4E6",
       },
     },
   },
   plugins: [require("tw-elements/dist/plugin.cjs")],
+  darkMode: "class",
 };

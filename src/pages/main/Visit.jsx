@@ -4,25 +4,6 @@ import { useTranslation } from "react-i18next";
 
 function Visit() {
   const { t } = useTranslation();
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const { name, surname, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      surname: surname.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    let result = await response.json();
-    alert(result.status);
-  };
   return (
     <>
       <div className="grid grid-cols-12 py-10" id="visit">
@@ -62,10 +43,7 @@ function Visit() {
           viewport={{ once: true }}
           className="lg:col-start-7 lg:col-span-5 col-span-12 p-5 lg:p-0"
         >
-          <form
-            className="grid grid-cols-12 col-span-6 gap-4"
-            onSubmit={handleSubmit}
-          >
+          <form className="grid grid-cols-12 col-span-6 gap-4">
             <input
               type="text"
               className="border border-c-text col-span-6 p-4"

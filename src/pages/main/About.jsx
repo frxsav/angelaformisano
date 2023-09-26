@@ -12,7 +12,7 @@ function About() {
         className="grid grid-cols-6 py-4 lg:grid-cols-12 lg:gap-4 lg:py-10"
         id="about"
       >
-        <div className="col-span-6">
+        <div className="col-span-6 lg:col-start-1 lg:col-span-5">
           <h1 className="text-4xl font-bold mb-2 text-center">
             {t("doctor.professional_name")}
           </h1>

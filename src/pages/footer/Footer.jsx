@@ -61,7 +61,7 @@ const Footer = () => {
             <BsInstagram></BsInstagram>
           </a>
         </section>
-        <small className="text-c-inside border-t border-t-c-outside col-span-12 lg:col-span-4 pt-2 mt-8 row-end-12 lg:self-end">
+        <small className="text-c-inside lg:border-none border-t border-t-c-outside col-span-12 lg:col-span-4 pt-2 mt-8 row-end-12 lg:self-end">
           {t("footer.designer")}
         </small>
         <div className="hidden lg:block">

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/angelaformisano/static/css/main.97f4655d.css",
-    "main.js": "/angelaformisano/static/js/main.e3a19594.js",
+    "main.css": "/angelaformisano/static/css/main.d09b8cc7.css",
+    "main.js": "/angelaformisano/static/js/main.3330a321.js",
     "index.html": "/angelaformisano/index.html",
     "static/media/getFetch.cjs": "/angelaformisano/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.97f4655d.css.map": "/angelaformisano/static/css/main.97f4655d.css.map",
-    "main.e3a19594.js.map": "/angelaformisano/static/js/main.e3a19594.js.map"
+    "main.d09b8cc7.css.map": "/angelaformisano/static/css/main.d09b8cc7.css.map",
+    "main.3330a321.js.map": "/angelaformisano/static/js/main.3330a321.js.map"
   },
   "entrypoints": [
-    "static/css/main.97f4655d.css",
-    "static/js/main.e3a19594.js"
+    "static/css/main.d09b8cc7.css",
+    "static/js/main.3330a321.js"
   ]
 }

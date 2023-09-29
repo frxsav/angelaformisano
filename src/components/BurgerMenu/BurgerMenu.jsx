@@ -13,6 +13,7 @@ const BurgerMenu = () => {
           className="absolute h-[25%] w-full m-0 right-0 px-5 top-0 bg-c-text transition ease-in duration-300 text-inside grid grid-rows-6"
           style={{
             transform: isOpen ? "translateY(0)" : "translateY(-100%)",
+            opacity: isOpen ? 1 : 0,
           }}
         >
           <ul className="mt-20 h-full grid grid-rows-12 row-start-1 gap-3 border-t border-t-c-outside pt-5">

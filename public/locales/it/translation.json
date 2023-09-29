@@ -22,11 +22,12 @@
     "title": "Prenota una visita gratuita",
     "dsc": "Compila il form seguente con la tua richiesta e ti ricontatterò il prima possibile",
     "form": {
-      "name": "Nome",
-      "surname": "Cognome",
-      "email": "Email",
+      "required_fields": "Campi obbligatori *",
+      "name": "Nome *",
+      "surname": "Cognome *",
+      "email": "Email *",
       "number": "Telefono",
-      "your_message": "Il tuo messaggio",
+      "your_message": "Il tuo messaggio *",
       "send": "Invia"
     }
   },

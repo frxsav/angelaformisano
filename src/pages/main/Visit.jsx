@@ -75,6 +75,7 @@ function Visit() {
           viewport={{ once: true }}
           className="lg:col-start-7 lg:col-span-5 col-span-12 p-5 lg:p-0"
         >
+          <i>Campi obbligatori *</i>
           <form
             className="grid grid-cols-12 col-span-6 gap-4"
             ref={form}

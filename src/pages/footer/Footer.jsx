@@ -11,10 +11,10 @@ const Footer = () => {
         className="grid grid-cols-12 px-5 lg:px-10 pt-5 lg:pt-16 pb-5 bg-c-text text-c-outside"
         id="footer"
       >
-        <section className="col-span-6 lg:col-span-3 grid grid-rows-12">
+        <section className="col-span-5 lg:col-span-3 grid grid-rows-12">
           <div>
             <h6 className="text-2xl lg:text-3xl pb-2">{t("footer.where.title")}</h6>
-            <address className="text-c-inside">
+            <address className="text-c-inside text-sm">
               {t("footer.where.street")}
               <br />
               {t("footer.where.building")}
@@ -23,20 +23,20 @@ const Footer = () => {
             </address>
           </div>
         </section>
-        <section className="col-span-6 lg:col-span-3 grid grid-rows-12">
+        <section className="col-span-6 col-start-7 lg:col-span-3 grid grid-rows-12">
           <div>
             <h6 className="text-2xl lg:text-3xl pb-2">{t("footer.working_time.title")} </h6>
-            <address className="text-c-inside">
+            <address className="text-c-inside text-sm">
               {" "}
               {t("footer.working_time.days")} <br />
               {t("footer.working_time.hours")}
             </address>
           </div>
         </section>
-        <section className="col-span-6 lg:col-span-3 pt-4 lg:pt-0 grid grid-rows-12">
+        <section className="col-span-5 lg:col-span-3 pt-4 lg:pt-0 grid grid-rows-12">
           <div>
             <h6 className="text-2xl lg:text-3xl pb-2"> {t("footer.contacts.title")} </h6>
-            <address className="text-c-inside">
+            <address className="text-c-inside text-sm">
               {" "}
               {t("footer.contacts.email")} <br />{" "}
               {t("footer.contacts.phone_number")}{" "}

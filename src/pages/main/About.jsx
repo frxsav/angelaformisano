@@ -8,17 +8,17 @@ function About() {
   const { t } = useTranslation();
   return (
     <>
-      <div
+      <article
         className="grid grid-cols-6 py-4 lg:grid-cols-12 lg:gap-4 lg:py-10"
         id="about"
       >
-        <div className="col-span-6 lg:col-start-1 lg:col-span-5">
+        <section className="col-span-6 lg:col-start-1 lg:col-span-5">
           <h1 className="text-4xl font-bold mb-2 text-center">
             {t("doctor.professional_name")}
           </h1>
-        </div>
+        </section>
 
-        <m.div
+        <m.section
           initial={{ x: -300, opacity: 0 }}
           whileInView={{
             x: 0,
@@ -46,8 +46,8 @@ function About() {
               <Trans i18nKey={"main.dsc_3"} components={{ i: <i /> }} />
             </p>
           </div>
-        </m.div>
-        <m.div
+        </m.section>
+        <m.section
           initial={{ opacity: 0 }}
           whileInView={{
             opacity: 1,
@@ -61,9 +61,18 @@ function About() {
           className="col-span-6 m-5 lg:m-3 order-1 lg:col-end-12 lg:col-span-4 bg-c-blue lg:order-2 lg:m-0"
           style={{ borderRadius: "82% 18% 27% 73% / 100% 57% 43% 0% " }}
         >
-          <img src="./images/Angela.png" alt="Angela" width="600px" height="600px" />
-        </m.div>
-      </div>
+          <figure>
+            <img
+              src="./images/Angela.png"
+              alt="Dott.ssa Angela Formisano"
+              title="Dott.ssa Angela Formisano"
+              loading="eager"
+              width="600px"
+              height="600px"
+            />
+          </figure>
+        </m.section>
+      </article>
     </>
   );
 }

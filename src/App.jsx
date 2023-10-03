@@ -8,7 +8,7 @@ import Footer from "./pages/footer/Footer";
 function App() {
   return (
     <>
-      <div className="h-full w-full bg-c-outside lg:px-16 lg:pt-16 px-2 pt-2 divide-y-2 divide-c-outside overflow-x-hidden">
+      <article className="h-full w-full bg-c-outside lg:px-16 lg:pt-16 px-2 pt-2 divide-y-2 divide-c-outside overflow-x-hidden">
         <header className="w-full bg-c-inside">
           <Navbar></Navbar>
         </header>
@@ -21,7 +21,7 @@ function App() {
           <div></div>
           <Footer></Footer>
         </footer>
-      </div>
+      </article>
     </>
   );
 }

@@ -54,10 +54,9 @@ function Visit() {
           viewport={{ once: true }}
           className="lg:col-start-2 lg:col-span-4 col-span-12 lg:text-left text-center"
         >
-          <h6 className="text-3xl lg:text-4xl font-semibold pb-5">
-            {" "}
-            {t("visit.title")}{" "}
-          </h6>
+          <h2 className="text-3xl lg:text-4xl font-semibold pb-5">
+            {t("visit.title")}
+          </h2>
           <small className="text-xl hidden lg:block"> {t("visit.dsc")} </small>
         </m.div>
         <m.div

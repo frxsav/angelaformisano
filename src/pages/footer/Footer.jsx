@@ -13,7 +13,9 @@ const Footer = () => {
       >
         <section className="col-span-5 lg:col-span-3 grid grid-rows-12">
           <div>
-            <h6 className="text-2xl lg:text-3xl pb-2">{t("footer.where.title")}</h6>
+            <h3 className="text-2xl lg:text-3xl pb-2">
+              {t("footer.where.title")}
+            </h3>
             <address className="text-c-inside text-sm">
               {t("footer.where.street")}
               <br />
@@ -25,9 +27,10 @@ const Footer = () => {
         </section>
         <section className="col-span-6 col-start-7 lg:col-span-3 grid grid-rows-12">
           <div>
-            <h6 className="text-2xl lg:text-3xl pb-2">{t("footer.working_time.title")} </h6>
+            <h3 className="text-2xl lg:text-3xl pb-2">
+              {t("footer.working_time.title")}{" "}
+            </h3>
             <address className="text-c-inside text-sm">
-              {" "}
               {t("footer.working_time.days")} <br />
               {t("footer.working_time.hours")}
             </address>
@@ -35,7 +38,10 @@ const Footer = () => {
         </section>
         <section className="col-span-5 lg:col-span-3 pt-4 lg:pt-0 grid grid-rows-12">
           <div>
-            <h6 className="text-2xl lg:text-3xl pb-2"> {t("footer.contacts.title")} </h6>
+            <h3 className="text-2xl lg:text-3xl pb-2">
+              {" "}
+              {t("footer.contacts.title")}{" "}
+            </h3>
             <address className="text-c-inside text-sm">
               {" "}
               {t("footer.contacts.email")} <br />{" "}
